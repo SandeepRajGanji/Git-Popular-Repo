@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.git-popular-repo-heading {
+  font-family: 'Lobster';
+  font-size: 36px;
+}
+.git-popular-repo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1140px;
+  min-height: 100vh;
+}
+.language-filter-container {
+  display: flex;
+  padding: 0px;
+  list-style: none;
+  width: 50%;
+  justify-content: center;
+}
+.language-cards-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+  align-items: center;
+}

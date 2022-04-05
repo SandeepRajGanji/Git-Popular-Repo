@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.language-item-card {
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+.language-item-card-image {
+  width: 120px;
+  margin-top: 20px;
+}
+.language-item-card-heading {
+  font-size: 20px;
+  color: #e73959;
+}
+.language-item-card-count-details-container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+.language-item-card-count-image {
+  width: 20px;
+  margin-right: 5px;
+}
+.language-item-card-count {
+  font-size: 14px;
+}
